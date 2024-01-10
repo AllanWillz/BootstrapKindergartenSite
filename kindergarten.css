@@ -19,7 +19,7 @@
 }
 .links{
    margin-left: 10%;
-   font-size: 20px;
+   font-size: 16px;
 }
 .button{
     margin-left: 20%;
@@ -46,7 +46,7 @@
 }
 .icons:hover{
     background-color: #FF9800;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 100px;
 }
 .icons:link{
@@ -92,6 +92,6 @@
 }
 .navList:hover{
     background-color: #FF9800;
-    font-size: 25px;
+    font-size: 10px;
     color: #ffffff;
 }
