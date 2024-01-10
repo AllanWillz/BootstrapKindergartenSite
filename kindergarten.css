@@ -1,0 +1,97 @@
+.fullWidth{
+    display: grid;
+    grid-template-areas: 
+        'full'
+    ;
+    width: 100%;
+}
+.fullWidth{grid-area: full;}
+
+.unorder{
+    list-style: none;
+    gap: 20px;
+}
+.container-fluid{
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.links{
+   margin-left: 10%;
+   font-size: 20px;
+}
+.button{
+    margin-left: 20%;
+}
+.images{
+    background-image: url(./WA/allan/girl\ 2.0.jpg);
+    height: 700px;
+}
+.threeDiv{
+    bottom: 100px;
+    height: 20rem;
+    /* width: 10rem; */
+}
+.programOne, .programTwo, .programThree{
+    color: #ffffff;
+}
+
+.innerDiv{
+    margin: 20px;
+}
+.btns{
+    border: none;
+    padding: 15px;
+}
+.icons:hover{
+    background-color: #FF9800;
+    padding: 10px;
+    border-radius: 100px;
+}
+.icons:link{
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 100px;
+}
+.containers{
+    width: 500px;
+    justify-content: centers;
+}
+.colContainer{
+    text-align: center;
+}
+.fourIcons{
+    display: flex;
+}
+.teachers{
+    text-align: center;
+}
+.imageColors{
+    text-align: center;
+    padding: 30px;
+}
+.iconOpacity{
+    opacity: 50%;
+}
+.iconOpacity:hover{
+    color: #ffffff;
+}
+.iconOpacity:visited{
+    background-color: #ffffff;
+}
+.footer{
+        background: linear-gradient(
+            #2a2a2ae6, #2a2a2ae5
+        ), url(./WA/allan/footer\ 2.0.jpg), fixed
+        ;
+        background-size: cover;
+}
+.footerList{
+    list-style: none;
+}
+.navList:hover{
+    background-color: #FF9800;
+    font-size: 25px;
+    color: #ffffff;
+}
